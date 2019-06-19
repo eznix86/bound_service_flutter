@@ -16,7 +16,7 @@ The simplest way to explain it:
 4. Since it's a bound service, the service should be bound to an application (obligatory).
 5. If the application is killed, the service is killed also by the system.
 
-Folder to check the codes:
+Files to check the codes:
  - bound_service.dart -- in charge of communicating with Java
  - main.dart -- Top level communication with Java
  - BoundServicePlugin.java -- It is the plugin where all your background code which runs
