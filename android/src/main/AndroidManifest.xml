@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cyberstorm.mu.bound_service">
+
+    <application>
+        <service
+            android:name=".LocalService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".Service"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>
